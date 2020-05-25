@@ -1,0 +1,41 @@
+
+
+Task 0
+=========================================================================
+Worst case = O(1)
+lists are already ordered so retrieving an element takes a constant time
+
+Task 1
+========================================================================
+Worst case = O(n)
+
+for merging calls and texts = O(n)
+iteration on the rows = O(n)
+adding numbers to set = O(1)
+O(n) + O(n) * O(1) = O(n)
+
+Task 2
+============================================================================
+Worst case = O(n)
+iteration on the calls dataset = O(n)
+for loop = constant time
+time spent iteration = O(n)
+O(n) + O(n) = O(n)
+
+Task 3
+=============================================================================
+Worst case = O(n logn)
+iteration on the calls dataset  = O(n)
+for loop = constant
+sort the list = O(nlogn)
+O(n) + O(n logn) => O(n logn)
+
+Task 4
+=============================================================================
+Worst case = O(n logn)
+iteration on the calls dataset  = O(n)
+for loop = constant
+intersect outgoing & incoming = O(n)
+difference of the sets = O(n)
+sort the list => O(n logn)
+O(n) + O(n) + O(n) + O(n logn) => O(n logn)
